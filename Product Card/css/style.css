@@ -47,49 +47,46 @@ body{
     height: 100vh;
 }
 
-
-
-
-/* Card */
-
-.card{
+.card__img{
+    width: 100%;
+    height: 20rem;
+    display: none;
     
-    background-color: var(--White);
-    width: 60rem;
-    height: 45rem;
-    border-radius: 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
 }
 
-/* Card Img */
-.card__img img{
+
+.card__img_m img{
     width: 100%;
     height: 100%;
-    border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
-
-
-/* Card Elements */
-
+.card{
+    width: 40rem;
+    height: 70rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: var(--White);
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
 
 .card__elements{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 0 auto;
+    height: 100%;
+    margin: 0;
+    padding: 2rem;
 }
 
+
 .card__elements--product{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: var(--font1);
     text-transform: uppercase;
     color: var(--neutralDarkGrayishBlue);
     letter-spacing: 0.5rem;
     font-weight: 00;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 
@@ -105,7 +102,7 @@ body{
 
 
 .card__elements--info{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--neutralDarkGrayishBlue);
     font-family: var(--font1);
     font-weight: 500;
@@ -116,7 +113,7 @@ body{
 .card__elements--prices{
     display: flex;
     align-items: center;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
 
 .card__elements--discount{
@@ -132,7 +129,7 @@ body{
     
     color: var(--neutralDarkGrayishBlue);
     font-family: var(--font1);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: 500;
     text-decoration: line-through;
     margin-left: 2rem;
@@ -154,6 +151,7 @@ body{
     
 }
 
+
 .btn a{
     color: var(--White);
     text-decoration: none;
@@ -162,4 +160,75 @@ body{
     font-weight: 700;
     margin-left: 1rem;
 }
+
+.btn:hover{
+    background-color: #1a4031;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    
+    
+/* Card */
+
+.card{
+    
+    background-color: var(--White);
+    width: 60rem;
+    height: 45rem;
+    
+    border-radius: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* Card Img */
+
+.card__img{
+    display: contents;
+}
+
+.card__img img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.card__img_m {
+    display: none;
+}
+
+
+/* Card Elements */
+
+
+.card__elements{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.card__elements--product{
+    margin-top: 3rem;
+}
+
+.card__elements--before{
+        
+    font-size: 1.1rem;     
+}
+
+.card__elements--info{
+    font-size: 1.5rem;
+    
+}
+.card__elements--prices{
+   
+    margin-top: 2.5rem;
+}
+}
+
 
