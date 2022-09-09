@@ -114,6 +114,7 @@ body{
 .card__elements--prices{
     display: flex;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .card__elements--discount{
