@@ -95,7 +95,7 @@ body{
 
 .card__elements--title{
     color: var(--neutralVeryDarkBlue);
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     font-family: var(--font2);
     font-weight: 700;
     margin: 1rem 0 0 0;
@@ -109,7 +109,7 @@ body{
     color: var(--neutralDarkGrayishBlue);
     font-family: var(--font1);
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.7;
     margin: 2rem 0 0 0;
 }
 
@@ -132,7 +132,7 @@ body{
     
     color: var(--neutralDarkGrayishBlue);
     font-family: var(--font1);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 500;
     text-decoration: line-through;
     margin-left: 2rem;
