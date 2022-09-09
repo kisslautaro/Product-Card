@@ -1,0 +1,61 @@
+:root{
+/* Colors */
+
+/* Primary */
+    --primaryDarkCyan:hsl(158, 36%, 37%);
+    --primaryCream:hsl(30, 38%, 92%);
+
+/* Neutral */
+    --neutralVeryDarkBlue:hsl(212, 21%, 14%);
+    --neutralDarkGrayishBlue:hsl(228, 12%, 48%);
+    --White:hsl(0, 0%, 100%);
+
+/* Fonts */
+    --font1:'Montserrat', sans-serif;
+    --font2:'Fraunces', serif;
+
+}
+
+/* Globals */
+html{
+    box-sizing: border-box;
+    font-size:  62.5%;
+    height: 100%;
+    
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+
+}
+
+
+body{
+    height: 100vh;
+    background-color: var(--primaryCream);
+}
+
+
+
+/* Container */
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+/* Card */
+
+.card{
+    
+    background-color: var(--White);
+    width: 60rem;
+    height: 50rem;
+    border-radius: 1.5rem;
+}
