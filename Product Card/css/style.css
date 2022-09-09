@@ -185,7 +185,9 @@ body{
 /* Card Img */
 
 .card__img{
-    display: contents;
+    display: contents ;
+    height: 100%;
+    
 }
 
 .card__img img{
@@ -193,6 +195,7 @@ body{
     height: 100%;
     border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
+    
 }
 
 .card__img_m {
