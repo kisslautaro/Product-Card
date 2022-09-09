@@ -98,7 +98,7 @@ body{
     font-size: 3rem;
     font-family: var(--font2);
     font-weight: 700;
-    margin: 1.5rem 0 0 0;
+    margin: 1rem 0 0 0;
 
 }
 
@@ -109,12 +109,13 @@ body{
     font-family: var(--font1);
     font-weight: 500;
     line-height: 1.5;
+    margin: 2rem 0 0 0;
 }
 
 .card__elements--prices{
     display: flex;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 
 .card__elements--discount{
@@ -140,6 +141,7 @@ body{
 
 
 .btn{
+    
     background-color: var(--primaryDarkCyan);
     color: var(--White);
     padding: 1.5rem;
@@ -149,4 +151,10 @@ body{
     font-family: var(--font1);
     font-weight: 700;
     margin-top: 2rem;
+    
 }
+
+button img{
+    
+}
+
