@@ -99,6 +99,7 @@ body{
     font-family: var(--font2);
     font-weight: 700;
     margin: 1rem 0 0 0;
+    line-height: 1;
 
 }
 
@@ -141,20 +142,24 @@ body{
 
 
 .btn{
-    
-    background-color: var(--primaryDarkCyan);
-    color: var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primaryDarkCyan);    
     padding: 1.5rem;
     border-radius: .7rem;
-    border: none;
-    font-size: 1.5rem;
-    font-family: var(--font1);
-    font-weight: 700;
+    border: none;    
     margin-top: 2rem;
+
     
 }
 
-button img{
-    
+.btn a{
+    color: var(--White);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: var(--font1);
+    font-weight: 700;
+    margin-left: 1rem;
 }
 
