@@ -185,9 +185,9 @@ body{
 /* Card Img */
 
 .card__img{
-    display: contents ;
+    display: block ;
     height: 100%;
-    
+
 }
 
 .card__img img{
